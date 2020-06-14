@@ -12,6 +12,15 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.card {
+  border-radius: 8px;
+  width: 300px;
+  background-color: white;
+  color: black;
+  margin-bottom: 15px;
+  box-shadow: 3px 3px 6px 0 #035096;
+}
+
 .contact-info {
   display: grid;
   width: 200px;
@@ -29,8 +38,24 @@ header {
 p {
   font-size: 20px;
 }
+
 .profile-pic {
   border-radius: 8px;
+}
+
+#projects {
+  display: inline-block;
+}
+
+#projects img {
+  border-radius: 8px 8px 0 0;
+}
+
+#projects button {
+  margin-bottom: 8px;
+  border-radius: 4px;
+  border-style: none;
+  font-family: "Open Sans", sans-serif;
 }
 
 .social-links {
@@ -41,7 +66,6 @@ p {
 }
 
 .social-link-item {
-  /* display: inline-block; */
   margin-left: 10px;
   width: 30px;
 }
