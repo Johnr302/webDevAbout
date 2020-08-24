@@ -8,7 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap"
       rel="stylesheet"
     />
-    <link href="index.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -64,7 +64,17 @@
     <section id="projects">
       <h1>Projects</h1>
       <section class="card">
-        <img src="http://via.placeholder.com/300" alt="project1" />
+        <picture>
+          <source
+            srcset="images/Lucent1-thumbnail.png"
+            media="(pointer: coarse)"
+          />
+          <source srcset="images/Lucent1.png" />
+          <img
+            src="http://via.placeholder.com/300"
+            alt="Memory game screenshot"
+          />
+        </picture>
         <h2>Lucent</h2>
         <p>
           Lucent is an application to make EMDR therapy more accessible through
@@ -73,45 +83,64 @@
           psychological stress. The Lucent application provides a light tool for
           therapists to use with their clients remotely.
         </p>
-        <div>
-          <button class="button">View Project</button>
-        </div>
+        <a
+          href="https://projects.invisionapp.com/d/main?origin=v7#/projects/prototypes/19690062"
+          >View Project</a
+        >
       </section>
       <section class="card">
-        <img src="http://via.placeholder.com/300" alt="project1" />
-        <h2>Wac-A-Mole Game</h2>
+        <picture>
+          <source
+            srcset="images/Whack-A-Mole-Thumbnail.png"
+            media="(pointer: coarse)"
+          />
+          <source srcset="images/Whack-A-Mole-Thumbnail.png" />
+          <img
+            src="http://via.placeholder.com/300"
+            alt="Memory game screenshot"
+          />
+        </picture>
+        <h2>Whack-A-Mole Game</h2>
         <p>
           The object of the game is to force the individual moles back into
           their holes by hitting them directly on the head with the mallet,
-          thereby adding to the player's score. Using react I built a web
+          thereby adding to the player's score. Using React I built a web
           version of this game where the object is to wack the mole and gain as
           many points as possible in the alloted time.
         </p>
-        <div>
-          <button class="button">View Project</button>
-        </div>
+
+        <button class="button">View Project</button>
       </section>
       <section class="card">
-        <img src="http://via.placeholder.com/300" alt="project1" />
-        <h2>Memory</h2>
+        <img
+          src="http://via.placeholder.com/300"
+          alt="Memory game screenshot"
+        />
+        <h2>Memory Game</h2>
         <p>
-          Built in react this is a card based memory game where the object is to
+          Built in React this is a card based memory game where the object is to
           match a pair of cards.
         </p>
-        <div>
-          <button class="button">View Project</button>
-        </div>
+        <a href="fixLinkHere">View Project</a>
       </section>
       <section class="card">
-        <img src="http://via.placeholder.com/300" alt="project1" />
+        <picture>
+          <source
+            srcset="images/Github-Thumbnail-300px.png"
+            media="(pointer: coarse)"
+          />
+          <source srcset="images/Github-Thumbnail.png" />
+          <img
+            src="http://via.placeholder.com/300"
+            alt="Memory game screenshot"
+          />
+        </picture>
         <h2>Github</h2>
         <p>
-          Git hub has repositories of various projects that I am currently
+          Github has repositories of various projects that I am currently
           working on and have completed.
         </p>
-        <div>
-          <button class="button">View Project</button>
-        </div>
+        <a href="https://github.com/Johnr302">View Project</a>
       </section>
     </section>
   </body>

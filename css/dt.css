@@ -24,6 +24,21 @@ body {
   color: black;
   margin-bottom: 15px;
   box-shadow: 3px 3px 6px 0 black;
+  /* text-align: center; */
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+
+.card a {
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 16px;
+  margin-bottom: 8px;
+  background-color: #035096;
+  color: white;
+  text-decoration: none;
 }
 
 .card button {
@@ -31,14 +46,15 @@ body {
   border-radius: 4px;
   border-style: none;
   font-family: "Open Sans", sans-serif;
+  padding: 20px;
 }
 
-.card img {
+.card .thumbnail {
   border-radius: 8px 8px 0 0;
 }
 
 .card p,
-.card div {
+.card button {
   text-align: left;
   margin-left: 10px;
 }
