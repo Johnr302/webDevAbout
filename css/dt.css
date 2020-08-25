@@ -19,7 +19,7 @@ body {
 
 .card {
   border-radius: 8px;
-  width: 300px;
+  width: 600px;
   background-color: white;
   color: black;
   margin-bottom: 15px;
@@ -27,6 +27,7 @@ body {
   /* text-align: center; */
   box-sizing: border-box;
   padding-bottom: 20px;
+  overflow: hidden;
 }
 
 .card a {
@@ -41,20 +42,11 @@ body {
   text-decoration: none;
 }
 
-.card button {
-  margin-bottom: 8px;
-  border-radius: 4px;
-  border-style: none;
-  font-family: "Open Sans", sans-serif;
-  padding: 20px;
-}
-
 .card .thumbnail {
   border-radius: 8px 8px 0 0;
 }
 
-.card p,
-.card button {
+.card p {
   text-align: left;
   margin-left: 10px;
 }
@@ -72,9 +64,23 @@ body {
 header {
   text-align: center;
 }
-
+img {
+  width: 100%;
+}
 p {
   font-size: 20px;
+}
+
+picture {
+  /* display: block; */
+  box-shadow: 0px 8px 15px 0px #e8e8e8;
+  height: 263px;
+  border-bottom: 1px solid #ccc;
+}
+
+picture source {
+  width: 100%;
+  position: relative;
 }
 
 .profile-pic {
